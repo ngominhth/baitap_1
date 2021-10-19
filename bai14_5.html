@@ -1,0 +1,29 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<script>
+    let diem_kiemtra=parseInt(prompt("Nhập điểm kiểm tra"));
+    let diemthi_giuaky=parseInt(prompt("nhập điểm thi giữa kỳ"));
+    let diemthi_cuoiky=parseInt(prompt("Nhập điểm thi cuối kỳ"));
+    let diem_tb=(diem_kiemtra + diemthi_giuaky + diemthi_cuoiky)/3;
+    if(diem_tb >=5 && diem_tb <=6)
+    {
+        alert("Xếp loại trung bình");
+    }
+    else if(diem_tb >=7 && diem_tb <9)
+    {
+        alert("Xếp loại khá");
+    }
+    else if(diem_tb >=9)
+    {
+        alert("xếp loại giỏi");
+    }
+    else
+    {
+        alert("Xếp loại kém");
+    }
+</script>
+</body>
+</html>
